@@ -59,6 +59,9 @@ let
         }
       ];
     };
+    nix-darwin = {
+      # Left empty for possible future configurations
+    };
   };
 in
 {
