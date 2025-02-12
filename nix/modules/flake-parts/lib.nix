@@ -59,12 +59,6 @@ let
         }
       ];
     };
-    # nix-darwin module containing necessary configuration
-    # Required when using the DetSys installer
-    # cf. https://github.com/srid/nixos-unified/issues/52
-    nix-darwin = {
-      nix.useDaemon = true; # Required on multi-user Nix install
-    };
   };
 in
 {
